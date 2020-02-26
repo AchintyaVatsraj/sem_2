@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/trees/main.c
+stdio.h
+-
+conio.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
